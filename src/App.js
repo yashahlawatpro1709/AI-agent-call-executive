@@ -6,24 +6,6 @@ const rotate = keyframes`
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 `;
-
-const shine = keyframes`
-  0% { background-position: 200% center; }
-  100% { background-position: -200% center; }
-`;
-
-const fadeIn = keyframes`
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-`;
-
-// Add new animations
-const float = keyframes`
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0px); }
-`;
-
 const pulse = keyframes`
   0% { box-shadow: 0 0 0 0 rgba(0, 163, 255, 0.4); }
   70% { box-shadow: 0 0 0 20px rgba(0, 163, 255, 0); }
